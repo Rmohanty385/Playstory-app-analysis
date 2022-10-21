@@ -3,6 +3,7 @@ Analyzing the data of playstore apps
 📋 Abstract
 A few thousands of new applications are regularly uploaded on Google play store. A huge number of designers working freely on designing the apps and making them successful. With the enormous challenge from everywhere throughout the globe, it is important for a developer to know whether he/she is continuing the correct way or not. Since most Play Store applications are free, the income model is very obscure and inaccessible regarding how the in-application buys, in-application adverts and memberships add to the achievement of an application. In this way, an application's prosperity is normally dictated by the quantity of installation of the application and the client appraisals that it has gotten over its lifetime instead of the income is created. The objective of this experiment is to deliver insights to understand customer demands better and thus help developers to popularize the product. We have tried to discover the relationships among various attributes such as which application is free or paid, what are the user reviews, rating of the application.
 💾 Project Files Description
+
 This Project includes 2 colab notebook, 1 technical documentation as well as 1 presentation:
 
 Executable Files:
@@ -14,7 +15,7 @@ Play Store Data.csv - It contains the basic details of the app like number of us
 User Reviews.csv - It contains the user reviews and its sentiment score for the respective app.
 Data Source:
 Dataset - Dataset taken from Almabetter
------------------------------------------------------
+
 
 📖 Introduction:
 In today’s scenario we can see that mobile apps playing an important role in any individual’s life. With enormous challenge from everywhere throughout the globe, it is important for a designer to realize that he/she is continuing in the right way or not. To hold this income and their place in the market the application designers may need to figure out how to stick into their present position. The dataset with 10k Play Store applications is available to analyze the market of android. It can be examined to analysis the different category such as family, communication,entertainment, tools, music, camera etc. In this project we examine the different attributes present in the data set that affect the popularity of the application. We focused on to answer the questions like, what makes an app popular, what should be the price and size of the app, is there some trends in user sentiments. In our data set we have two csv files for data analysis: Play Store data User Reviews At first, we analysis the play store data and in the play store data we have 10841 rows and 13 columns & in the user review data we have 64295 rows and 5 columns of data. We have to take the maximum outcomes from the data which help us to analysis the which type of app is most preferable and comparisons between different insights. Our goal is to filter and make plots accordingly for a better EDA with respect to the final data. We need to explore and analyze the data to discover key factors responsible for app engagement and success.
@@ -41,7 +42,7 @@ Translated_Review: It contains the English translation of the review dropped by 
 Sentiment: It gives the attitude/emotion of the writer. It can be ‘Positive’, ‘Negative’, or ‘Neutral’.
 Sentiment_Polarity: It gives the polarity of the review. Its range is [-1,1], where 1 means ‘Positive statement’ and -1 means a ‘Negative statement’.
 Sentiment_Subjectivity: This value gives how close a reviewer’s opinion is to the opinion of the general public. Its range is [0,1]. Higher the subjectivity, closer is the reviewer’s opinion to the opinion of the general public, and lower subjectivity indicates the review is more of a factual information.
------------------------------------------------------
+
 
 📋Problem Statements
 1). Which apps are the highest earners?
@@ -74,7 +75,7 @@ Bivariate Analysis - This analysis is related to cause and the relationship betw
 
 Data Cleaning - We shall clean the dataset and handle the missing data, outliers and categorical variables.
 Testing Hypothesis - We shall check if our data meets the assumptions required by most of the multivariate techniques.
------------------------------------------------------
+
 
 📖 Steps Involved
 After loading the dataset, we can start the exploration but before that, we need to check and see that the dataset is ready for performing several exploration operations or not, so let’s first have a look at the structure and the manner in which the data is organized.
@@ -124,7 +125,6 @@ Category in which the paid apps have the highest average installation fee: Finan
 The apps whose size varies with device has the highest number average app installs.
 The apps whose size is greater than 90 MB has the highest number of average user reviews, i.e., they are more popular than the rest.
 Helix Jump has the highest number of positive reviews and Angry Birds Classic has the highest number of negative reviews.
------------------------------------------------------
 
 
 📚 References
